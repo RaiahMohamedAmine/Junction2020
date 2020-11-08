@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+  import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Quiz1 extends StatelessWidget {
@@ -88,6 +88,107 @@ class Quiz1 extends StatelessWidget {
                   ),
                 ],
               ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Container(
+                    margin: EdgeInsets.all(10),
+                    width:280,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10.0),
+                      color: const Color(0xefefefef),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x0a000000),
+                          offset: Offset(0, 3),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                    child: Center(
+                      child: Text('A. A flight to Milano',style: TextStyle(color: Color(0xffe22852), fontWeight: FontWeight.w900, fontSize: 20),),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.all(10),
+                    width:280,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10.0),
+                      color: const Color(0xefefefef),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x0a000000),
+                          offset: Offset(0, 3),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                    child: Center(
+                      child: Text('B. 10Km with the car',style: TextStyle(color: Color(0xffe22852), fontWeight: FontWeight.w900, fontSize: 20),),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.all(10),
+                    width:280,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10.0),
+                      color: const Color(0xefefefef),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x0a000000),
+                          offset: Offset(0, 3),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                    child: Center(
+                      child: Text('C. Me, breathing for 24h',style: TextStyle(color: Color(0xffe22852), fontWeight: FontWeight.w900, fontSize: 20),),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.all(10),
+                    width:280,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10.0),
+                      color: const Color(0xefefefef),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x0a000000),
+                          offset: Offset(0, 3),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                    child: Center(
+                      child: Text('D. 1kg of food waste',style: TextStyle(color: Color(0xffe22852), fontWeight: FontWeight.w900, fontSize: 20),),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(top: 20, left: 10, right: 10, bottom: 0),
+                    width:280,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10.0),
+                      color: const Color(0xefefefef),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0xffffffff),
+                          offset: Offset(0, 3),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                    child: Center(
+                      child: Text('Next Question',style: TextStyle(color: Color(0xffe22852), fontSize: 20),),
+                    ),
+                  ),
+                ],
+              )
             ),
           ),
           Container(),

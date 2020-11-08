@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class Spalsh extends StatelessWidget {
-  Spalsh({
+class Splash extends StatelessWidget {
+  Splash({
     Key key,
   }) : super(key: key);
   @override
